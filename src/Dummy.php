@@ -35,6 +35,6 @@ class Dummy implements ImageDriverInterface
     public function upload($binaryImage, $filename)
     {
         // upload the image here and return the image url
-        return 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png';
+        return 'http://docs.behat.org/en/v2.5/_static/img/logo.png';
     }
 }
