@@ -16,7 +16,7 @@ class DummySpec extends ObjectBehavior
 
     function it_should_return_the_dummy_image_url()
     {
-        $dummyUrl = 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png';
+        $dummyUrl = 'http://docs.behat.org/en/v2.5/_static/img/logo.png';
         $this->upload(Argument::any(), Argument::any())->shouldReturn($dummyUrl);
     }
 }

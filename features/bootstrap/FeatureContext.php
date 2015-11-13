@@ -29,7 +29,7 @@ class FeatureContext implements Context, SnippetAcceptingContext
      */
     public function iShouldSeeTheDummyImageUrl()
     {
-        $message = 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png';
+        $message = 'http://docs.behat.org/en/v2.5/_static/img/logo.png';
         $output = $this->testRunnerContext->getStandardOutputMessage() .
             $this->testRunnerContext->getStandardErrorMessage();
         $this->assertOutputContainsMessage($output, $message);

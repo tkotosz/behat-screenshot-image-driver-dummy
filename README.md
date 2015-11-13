@@ -37,6 +37,6 @@ When you run behat and a step fails then the Behat-ScreenshotExtension will auto
     Given I have a step               # FeatureContext::passingStep()
     When I have a failing step        # FeatureContext::failingStep()
       Error (Exception)
-Screenshot has been taken. Open image at https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png
+Screenshot has been taken. Open image at http://docs.behat.org/en/v2.5/_static/img/logo.png
     Then I should have a skipped step # FeatureContext::skippedStep()
 ```
